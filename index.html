@@ -11,22 +11,24 @@
     <title>MyBookList Application</title>
   </head>
   <body>
-    <header class="showcase">
+    <header>
       <div class="container mt-4">
         <h1 class="display-4 text-center"><i class="fas fa-book-open text-primary"></i>My <span class="text-prmary">Book</span></h1>
         <form action="" id="book-form">
           <div class="form-group">
           <label for=""></label>
-          <input type="text" id="title">
+          <input type="text" id="title" class="form-control">
         </div>
       <div class="form-group">
-          <label for=""></label>
-          <input type="text" id="title">
+          <label for="author">Author</label>
+          <input type="text" id="author" class="form-control">
         </div>
       <div class="form-group">
-          <label for=""></label>
-          <input type="text" id="title">
-        </div></form>
+          <label for="isbn">ISBN#</label>
+          <input type="text" id="isbn" class="form-control">
+        </div>
+      <input type="submit" value="Add Book" class="btn btn-primary btn-block">
+      </form>
       </div>
       </div>
     </header>
