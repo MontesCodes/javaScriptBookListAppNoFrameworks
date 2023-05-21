@@ -49,5 +49,9 @@ class UI {
 document.addEventListener('DOMContentLoaded', UI.displayBooks);
 
 // Even: Add a Book
+document.querySelector('#book-form').addEventListener('submit', e => {
+  // Get form values
+  const title = document.querySelector();
+});
 
 // Even: Remove a Book
